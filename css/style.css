@@ -1,0 +1,588 @@
+/* ------------------------------ DEFAULT CSS ---------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+:root {
+    --yellow-color: #ffb320;
+    --darkblack-color: #131313;
+    --white-color: #fff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+/* ----------------------------- HEADER --------------------------------- */
+
+.top-header {
+    background-color: var(--darkblack-color);
+    padding: 20px 0;
+    border-bottom: 1px solid #ffb320;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: var(--white-color);
+    padding: 0 40px 0 0;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    color: var(--yellow-color);
+}
+
+.btn-h a button {
+    background-color: #ffb320;
+    border-radius: 30px;
+    padding: 8px 28px;
+    border: 1px solid var(--yellow-color);
+    color: var(--darkblack-color);
+    font-size: 16px;
+    transition: .5s;
+}
+
+.btn-h a button:hover {
+    background: transparent;
+    border: 1px solid var(--white-color);
+    color: var(--yellow-color);
+}
+
+
+/* --------------------------------background --------------------------------------*/
+.bg-image {
+    background-image: url(../images/asset\ 6.jpeg);
+    background-size: 1920px 950px;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    padding: 0 0 950px 0;
+}
+.container h1 span {
+    color: var(--yellow-color);
+}
+
+.container h1 {
+    color: var(--white-color);
+    font-size: 70px;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+}
+
+.container p {
+    color: rgb(194, 194, 194);
+    margin: 0 0 25px 0;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.content {
+    width: 850px;
+    /* background-color: #15ff00; */
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.btn-B a button {
+    background-color: #ffb320;
+    border-radius: 30px;
+    padding: 16px 30px;
+    width: 150px;
+    border: 1px solid var(--yellow-color);
+    color: var(--darkblack-color);
+    font-size: 16px;
+    transition: .5s;
+}
+
+.btn-B a button:hover {
+    background: transparent;
+    border: 1px solid var(--white-color);
+    color: var(--yellow-color);
+}
+
+/*-------------------------------------------- Marquee -------------------------------------------- */
+
+.M-c {
+    width: 800px;
+    padding: 20px 30px;
+    text-align: right;
+    font-size: 18px;
+    color: #fff;
+    background: #ffb320;
+}
+
+.M2 {
+    flex-grow: 1;
+    background-color: var(--darkblack-color);
+    padding: 20px 0;
+    color: #fff;
+}
+
+.in {
+    background-color: #ffb320;
+}
+
+.MAR1 {
+    background-color: #4eae60;
+    padding: 8px 25px;
+    border: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.MAR2 {
+    background-color: #694eae;
+    padding: 8px 25px;
+    border: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.MAR3 {
+    background-color: #ff205f;
+    padding: 8px 25px;
+    border: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* -------------------------------- game detail --------------------------------------*/
+.box1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bg-image2 {
+    background-image: url('../images/asset\ 7.jpeg');
+    width: 25%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    padding: 25px 0 0px 0;
+    /* box-shadow: 5px 5px 8px #000; */
+    transition: .5s;
+}
+
+.bg-image2:hover {
+    /* box-shadow: 1px 2px 20px 6px #000; */
+    box-shadow: 1px 2px 20px 6px rgbA(74, 74, 74, 1);
+    transform: scale(1.1);
+}
+
+.sub-image1 {
+    background-image: url('../images/asset\ 7.jpeg');
+}
+
+.sub-image2 {
+    background-image: url('../images/asset\ 8.jpeg');
+}
+
+.sub-image3 {
+    background-image: url('../images/asset\ 9.jpeg');
+}
+
+.sub-image4 {
+    background-image: url('../images/asset\ 10.jpeg');
+}
+
+.ow {
+    margin: 0 0 0 20px;
+    padding: 8px 15px;
+    color: #fff;
+    transition: .1s;
+}
+
+.ow:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.box1 div span {
+    font-size: 12px;
+}
+
+.lorem-con {
+    color: #fff;
+    padding: 200px 20px 15px;
+}
+
+.lorem-con1 {
+    color: #fff;
+    padding: 0 20px 15px;
+    font-size: 14px;
+}
+
+.lorem-con2 {
+    color: gray;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .glow-on-hover {
+    padding: 8px 25px;
+    color: #fff;
+    background-color: #ff205f;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border: none;
+    margin-left: 20px;
+}
+.owbgc1{
+    background-color: #4eae60;
+}
+.owbgc2{
+    background-color: #694eae
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(90deg, #4eae60, #694eae, #ff205f, #ffb320 );
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* -------------------------------- recent game --------------------------------------*/
+
+.bg-img3{
+    width: 100%;
+    padding: 50px;
+    /* padding: 300px; */
+    /* background-color: greenyellow; */
+    background-color: #eef2f6;
+    background-image: url(../images/asset\ 11.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    border-top: 1px solid #d6dee7;
+    border-bottom: 1px solid #d6dee7;
+}
+.section-title3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title3 h3{
+    margin-top: 15px;
+    color: var(--black-color);
+    font-size: 32px;
+    font-weight: 500;
+}
+.bg-img-1{
+    width: 100%;
+    padding: 100px;
+    /* background-color: #4eae60; */
+    background-image: url('../images/asset\ 12.jpeg');
+    background-repeat: no-repeat;
+    transition: all 1s;
+}s
+.box3{
+    background-color: #ff205f;
+    width: 33%;
+    /* transition: .5s; */
+}
+.box3:hover{
+    transition: .5s;
+    transform: scale(0.9);
+}
+.sub-image3-1{
+    background-image: url('../images/asset\ 13.jpeg');
+}
+.sub-image3-2{
+    background-image: url('../images/asset\ 14.jpeg');
+}
+.contant-rec{
+    padding: 20px 0 0 20px; 
+    background-color: #fff;
+    width: 345px;  
+}
+.contant-rec h4{
+    padding-bottom: 15px;
+    color: var(--darkblack-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+.contant-rec .pera-s31{
+    font-size: 14px;
+    color: #878787;
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}   
+.r-game-box{
+    height: 40px;
+    width: 80px;
+    padding: 3px;
+    margin: 0 0 0 248px; 
+}
+img{
+    max-width: 100%;
+}
+.r-orenge{
+    background-color: #ffb320;
+}
+.r-pink{
+    background-color: #ff205f;
+}
+/* -------------------------------- tournament --------------------------------------*/
+.tournament-bg{
+    padding: 100px 0;
+    background-image: url('../images/asset\ 15.png');
+}
+.tour-btn span, .pre-tour-btn span{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 0px 0px;
+    font-size: 12px;
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+    font-weight: 600;
+}
+.tour-box{
+    background-color: var(--grey-black-color);
+}   
+.tour-btn span{
+    background-color: #FB6E10;
+
+}
+.tour-box-main{
+    width: 100%;
+    justify-content: space-between;
+}
+.tour-canvas{
+    padding: 24px;
+    background-color: #252525 ;
+}
+.tour-img{
+    width: 10px;
+    padding: 84px;
+    margin: 0 20px 0 0;
+    background-image: url('../images/asset\ 16.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; transition: all 1s;
+}
+.tour-ow{
+    background-image: url('../images/asset\ 14.jpeg');
+}
+.tour-img{
+    transform: scale(0.9);
+}
+.tour-img:hover{
+    transform: scale(1.1);
+}
+.tour-content h4{
+    color: var(--yellow-color);  font-size: 24px;
+    margin-bottom: 15px;
+}
+.tour-content p{
+    color: gray;
+    font-size: small;
+    margin-bottom: 5px;
+}
+.tour-content p span{
+    color: var(--white-color);
+}
+.tour-content span p{
+    display: inline;
+    color: var(--yellow-color);
+}
+.tour-content span{
+    color: gray;
+    font-size: 12px;
+}
+/* -------------------------------- recent review --------------------------------------*/
+.bg-review{
+    padding: 100px 0;
+    background-image: url('../images/asset\ 18.png');
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.review-title{
+    text-align: center; 
+}
+.review-title h1{
+    margin-top: 10px;
+    font-size: 40px; color: black;
+}
+.review-main{
+    margin: 70px 0 0;
+    justify-content: space-between;
+}
+.review-box{
+    width: 30%;
+    margin: 0 10px;
+}
+.review-box-img{
+    width: 100%;
+    padding: 0px 0 365px;
+    background-color: aqua;
+    position: relative;
+    background-image: url('../images/asset\ 19.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.owre1{
+    background-image: url('../images/asset\ 20.jpeg');
+}
+.owre2{
+    background-image: url('../images/asset\ 21.jpeg');
+}
+.owre3{
+    background-image: url('../images/asset\ 22.jpeg');
+}
+.review-box-img:hover{
+    transform: rotateY(180deg);
+}
+.review-box-img div{
+    position: absolute;
+    top: -25px;
+    width: 55px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #ffb320;
+    text-align: center;
+    display: inline;
+    margin: 0 0 0px 25px;
+    font-size: 18px;
+    color: var(--white-color);
+}
+.review-box-img .owr1{
+    background-color: #694eae;
+}
+.review-box-img .owr2{
+    background-color: #4eae60;
+}
+.review-box-img .owr3{
+    background-color: #ff20ae;
+}
+.review-content{text-align: center;}
+.review-content h1{
+    margin: 15px 0;
+    font-size: large;
+    color: #131313; font-size: 20px; font-weight: 500;
+}
+.review-content p{
+    color: gray;
+    font-size: 14px;
+}
+/* ------------------------------- footer --------------------------------------*/
+footer{
+    background-image: url('../images/asset\ 15.png'); padding: 50px 0;
+}
+.FT-logo{
+    /* background-color: #4eae60;  */
+    width: 25%; 
+}
+.FT-logo p{
+    text-align: start; padding-top: 5px;
+}
+.FT-logo img{
+    width: 100%;
+}
+.FT-link{
+    /* background-color: #694eae;  */
+    width: 20%; padding-left: 50px;
+}
+.FT-link h3{
+    font-size: 18px; font-weight: 500;  
+}
+.FT-link ul li{
+    padding-top: 8px;
+}
+.FT-link ul li a{
+    color: #fff; transition: all .5s; 
+}
+.FT-link ul li a:hover{
+    padding-left: 15px; color: var(--yellow-color);
+}
+.FT-icon{
+    width: 25%; 
+    /* background-color: #ff205f; */
+}
+.FT-icon i{
+    background-color: gray; padding: 15px; border-radius: 50%; margin-top: 50px; margin-left: 15px;
+}
+.FT-icon a{
+    color: #fff; transition: all .5s;
+}
+.FT-icon a:hover{
+    color: var(--yellow-color);
+}
